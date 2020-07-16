@@ -18,6 +18,7 @@ const broadcastEvent = (obj:BroadcastObj)=>{
         ws.send(JSON.stringify(obj))
     })
 }
+//////to do: check the working 
 
 const chatConenction = async (ws: WebSocket) => {
   //add new ws connecton to map
